@@ -5,29 +5,29 @@ A burp suite extension that reviews backup, old, temporary and unreferenced file
 # Why this extension?
 As I checked some tools in this field, I realized that almost all of tools use static payloads (they use built-in dictionaries) and they don't generate dynamic payloads based on target which is being tested.</br>
 Suppose this is hierachy tree of web server:</br>
-/
-├── upload	#Dir
-│   ├── index.php
-│   ├── index.php~
-│   ├── index.php.bkup
-│   ├── upload.zip
-│   └── users	#Dir
-│   	├── index.php
-│   	├── catalog.zip
-└── WeirdDirName	#Dir
-│   ├── index.php
-│   ├── captcha.php
-│   ├── captcha.php.old
-└── WeirdDirName.tar.gz</br>
-and this is the result of crawler:</br>
-/
-├── upload		#Dir
-│   ├── index.php
-│   └── users		#Dir
-│   	├── index.php
-└── WeirdDirName	#Dir
-│   ├── index.php
+/</br>
+├── upload	#Dir</br>
+│   ├── index.php</br>
+│   ├── index.php~</br>
+│   ├── index.php.bkup</br>
+│   ├── upload.zip</br>
+│   └── users	#Dir</br>
+│   	├── index.php</br>
+│   	├── catalog.zip</br>
+└── WeirdDirName	#Dir</br>
+│   ├── index.php</br>
 │   ├── captcha.php</br>
+│   ├── captcha.php.old</br>
+└── WeirdDirName.tar.gz</br></br>
+and this is the result of crawler:</br>
+/</br>
+├── upload		#Dir</br>
+│   ├── index.php</br>
+│   └── users		#Dir</br>
+│   	├── index.php</br>
+└── WeirdDirName	#Dir</br>
+│   ├── index.php</br>
+│   ├── captcha.php</br></br>
 
 This extension will find all backup, old and temp files in this scenario:</br>
 * /upload/index.php~
