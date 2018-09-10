@@ -6,8 +6,8 @@ A burp suite extension that reviews backup, old, temporary and unreferenced file
 As I checked some tools in this field, I realized that almost all of tools use static payloads (they use built-in dictionaries) and they don't generate dynamic payloads based on target which is being tested.</br>
 Suppose this is hierachy tree of web server:</br>
 /</br>
-├───upload&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
-│───├───index.php</br>
+>upload&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
+>>index.php</br>
 │───├───index.php~</br>
 │───├───index.php.bkup</br>
 │───├───upload.zip</br>
@@ -22,11 +22,11 @@ Suppose this is hierachy tree of web server:</br>
 and this is the result of crawler:</br>
 /</br>
 ├───upload&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
-│───├───/</br>
+│───├───index.php</br>
 │───└───users&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
 │───────├───index.php</br>
 └───WeirdDirName&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
-│───├───/</br>
+│───├───index.php</br>
 │───├───captcha.php</br></br>
 
 This extension will find all backup, old and temp files in this scenario:</br>
