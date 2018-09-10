@@ -1,0 +1,32 @@
+<h1><strong>Instruction:</strong></h1>
+<p><strong>follow these steps:</strong></p>
+<ol><li>Select a request of a target host from any tab of burp suite</li>
+<li>In "backupFinder -> Finder -> options" tab, apply your configurations.</li>
+<li>go to "backupFinder -> Finder -> Finder" tab and click on "start" button.</li></ol>
+</br>
+<p><strong>Hints:</strong></p>
+<ul><li>It's better to crawl the website, use burp spider or use browser to navigate to different available pages before you start backup-finding because this extension uses "siteMap and proxy history" as feed.</li>
+<li>If the target uses the <u>same</u> status code for both found and not-found pages (it doesn't use "404 Not Found"), go to the options tab ("Setup not found pages" part) and add a text which is returned when a webpage is not found.</li>
+<li>This extension uses the "Head" method by default to increase speed; if the target does not support it, go to the options tab and select the "GET" method</li>
+
+<h2>Options:</h2>
+<p><strong>Level:</strong></p>
+There are 5 levels and increasing the level will result in sending more requests and minimizing false negatives. (Default level: 3)
+    <ul><li><b>Level1:</b> Minimum payloads are sent (but most efficient)</li>
+    <li><b>Level5:</b> Maximum payloads are sent (the least false negatives)</li></ul>
+<p><strong>Brute-force zip files:</strong></p>
+By default, a built-in dictionary is used for the brute-forcing purpose, if you want to use your dictionary, change the value to "<b>load dictionary</b>"
+<p><strong>Method:</strong></p>
+By default, the <b>HEAD</b> method is used for faster response, if the web server doesn't support it you can switch to <b>GET</b>.
+<p><strong>threads and Throttle:</strong></p>
+<b>Thread:</b> thread can be between 1 and 50 (default:10)<br>
+<b>Throttle:</b> Delay between requests of the same thread, if there are limitations, set thread to 1 and increase throttle.(default:0)
+<p><strong>Not found pages:</strong></p>
+<b>Status:</b></b> It will be filled automatically by extension after an interaction with the server.<br>
+<b>Not found text in response:</b> If the server returns the same status code for both found and not-found pages, fill this field. enter a text which is returned in the body of not-found pages.
+<p><strong>Extensions:</strong></p>
+<b>Include only:</b> If you select this option, only extensions which are specified in the text field are <b>used</b> for the test. (separated by comma)<br>
+<b>Exclude:</b> If you select this option, extensions which are specified in the text field are <b>not used</b> for the test. (separated by comma)
+<p><strong>Status codes:</strong></p>
+<b>Include only:</b> If you select this option, only responses with status codes which are specified in the text field are checked. (separated by comma)<br>
+<b>Exclude:</b> If you select this option, responses with status codes which are specified in the text field are not checked. (separated by comma)

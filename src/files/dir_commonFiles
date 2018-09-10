@@ -1,0 +1,9 @@
+access.log
+error.log
+error_log
+access_log
+.git/
+.idea/
+db.sql
+xmlrpc
+xmlrpc.php
