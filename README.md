@@ -8,26 +8,26 @@ Suppose this is hierachy tree of web server:</br>
 /</br>
 >upload&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
 >>index.php</br>
-│───├───index.php~</br>
-│───├───index.php.bkup</br>
-│───├───upload.zip</br>
-│───└───users&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
-│───────├───index.php</br>
-│───────├───catalog.zip</br>
-└───WeirdDirName&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
-│───├───index.php</br>
-│───├───captcha.php</br>
-│───├───captcha.php.old</br>
-└───WeirdDirName.tar.gz</br></br>
+>>index.php~</br>
+>>index.php.bkup</br>
+>>upload.zip</br>
+>>users&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
+>────>index.php</br>
+>────>catalog.zip</br>
+>WeirdDirName&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
+>>index.php</br>
+>>captcha.php</br>
+>>captcha.php.old</br>
+>WeirdDirName.tar.gz</br></br>
 and this is the result of crawler:</br>
 /</br>
-├───upload&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
-│───├───index.php</br>
-│───└───users&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
-│───────├───index.php</br>
-└───WeirdDirName&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
-│───├───index.php</br>
-│───├───captcha.php</br></br>
+>upload&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
+>>index.php</br>
+>>users&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
+>────>index.php</br>
+>WeirdDirName&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
+>>index.php</br>
+>>captcha.php</br></br>
 
 This extension will find all backup, old and temp files in this scenario:</br>
 * /upload/index.php~
