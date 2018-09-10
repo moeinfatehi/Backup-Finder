@@ -22,11 +22,11 @@ Suppose this is hierachy tree of web server:</br>
 and this is the result of crawler:</br>
 /</br>
 ├───upload&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
-│───├───index.php</br>
+│───├───/</br>
 │───└───users&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
 │───────├───index.php</br>
 └───WeirdDirName&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
-│───├───index.php</br>
+│───├───/</br>
 │───├───captcha.php</br></br>
 
 This extension will find all backup, old and temp files in this scenario:</br>
