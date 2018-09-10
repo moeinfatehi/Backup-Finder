@@ -41,6 +41,11 @@ This extension will find all backup, old and temp files in this scenario:</br>
 Here is a screenshot of extension's results.</br></br>
 <img src="https://cdn1.imggmi.com/uploads/2018/9/10/e86bc9fdfec3ae10d84dbad11ca21540-full.png">
 
+# Quick Start
+1. Select a request of a target host from any tab of burp suite
+2. In "backupFinder -> Finder -> options" tab, apply your configurations.
+3. Go to "backupFinder -> Finder -> Finder" tab and click on "start" button.
+
 # Some of options
 These options can be used to customize the detection:
 * Level: Level of tests to perform (1-5, default 3)
