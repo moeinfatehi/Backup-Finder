@@ -3,8 +3,8 @@ A burp suite extension that reviews backup, old, temporary and unreferenced file
 
 
 # Why this extension?
-As I checked some tools in this field, I realized that almost all of tools use static payloads (they use built-in dictionaries) and they don't generate dynamic payloads based on target which is being tested.</br>
-Suppose this is hierachy tree of web server:</br>
+As I checked some tools in this field, I realized that almost all of tools use <b>only</b> static payloads (they use built-in dictionaries) and they don't generate dynamic payloads based on target which is being tested.</br></br>
+Suppose this is hierachy tree of web server:</br></br>
 /</br>
 ├───upload		#Dir</br>
 │───├───index.php</br>
@@ -18,8 +18,8 @@ Suppose this is hierachy tree of web server:</br>
 │───├───index.php</br>
 │───├───captcha.php</br>
 │───├───captcha.php.old</br>
-└───WeirdDirName.tar.gz</br></br>
-and this is the result of crawler:</br>
+└───WeirdDirName.tar.gz</br></br></br>
+and this is the result of crawler:</br></br>
 /</br>
 ├───upload────		#Dir</br>
 │───├───index.php</br>
