@@ -7,7 +7,7 @@ As I checked some tools in this field, I realized that almost all of the tools u
 </br>For example, suppose this is hierarchy tree of our web application:</br>
 </br>/</br>
 ├───<b>upload</b>&nbsp;&nbsp;&nbsp;&nbsp;#Dir</br>
-├───├───index.php</br>
+    ├───index.php</br>
 ├───├───index.php~</br>
 ├───├───index.php.bkup</br>
 ├───├───upload.zip</br>
