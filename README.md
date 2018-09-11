@@ -2,7 +2,7 @@
 A burp suite extension that reviews backup, old, temporary and unreferenced files on web server for sensitive information (OWASP OTG-CONFIG-004)
 
 
-# Why this extension?
+# Why should I use this extension?
 As I checked some tools in this field, I realized that almost all of tools use <b>only</b> static payloads (they use built-in dictionaries) and they don't generate dynamic payloads based on target which is being tested.</br>
 For example, suppose this is hierachy tree of our web applciation:</br>
 </br>/</br>
