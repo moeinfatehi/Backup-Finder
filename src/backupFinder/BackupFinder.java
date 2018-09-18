@@ -51,7 +51,7 @@ public class BackupFinder extends javax.swing.JPanel {
     static String[] extensions_level2={"bkp","temp","txt","tar.gz","tar.xz","bk"};
     static String[] endingChars={"~","2"};
     static String[] backUpChars_level1={"backup","bkup","old","tmp","bak"};
-    static String[] backUpChars_level2={"bkp","temp","orgin","original"};
+    static String[] backUpChars_level2={"bkp","temp","orgin","original","new","source"};
     static String[] zipChars_level1={"rar","zip"};
     static String[] zipChars_level2={"tar.gz","tar.xz"};
     

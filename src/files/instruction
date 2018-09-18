@@ -2,7 +2,7 @@
 <p><strong>follow these steps:</strong></p>
 <ol><li>Select a request of a target host from any tab of burp suite</li>
 <li>In "backupFinder -> Finder -> options" tab, apply your configurations.</li>
-<li>go to "backupFinder -> Finder -> Finder" tab and click on "start" button.</li></ol>
+<li>Go to "backupFinder -> Finder -> Finder" tab and click on "start" button.</li></ol>
 </br>
 <p><strong>Hints:</strong></p>
 <ul><li>It's better to crawl the website, use burp spider or use browser to navigate to different available pages before you start backup-finding because this extension uses "siteMap and proxy history" as feed.</li>

@@ -2,8 +2,15 @@ robots.txt
 access.log
 error.log
 error_log
+log/
+logs/
 access_log
 .git/
+.git/index
+.git/config
+.svn/
+.hg/
+.bzr/
 .htaccess
 db.sql
 xmlrpc
