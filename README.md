@@ -1,9 +1,9 @@
 # Backup-Finder
-A burp suite extension that reviews backup, old, temporary, and unreferenced files on the webserver for sensitive information.
+A burp suite extension that reviews backup, old, temporary, and unreferenced files on the webserver for sensitive information.</br></br>
 OWASP references:
-* Classification: Web Application Security Testing > 02-Configuration and Deployment Management Testing
-* OTG v4: OWASP OTG-CONFIG-004
-* WSTG: WSTG-CONF-04
+* <b>Classification</b>: Web Application Security Testing > 02-Configuration and Deployment Management Testing
+* <b>OTG v4</b>: OWASP OTG-CONFIG-004
+* <b>WSTG</b>: WSTG-CONF-04
 
 
 # Why should I use this extension?
@@ -38,7 +38,6 @@ This extension will find all backup, old and temp files in this scenario:</br>
 * /upload/index.php.bkup (Dynamic, finds possible extension and index file)
 * /upload/upload.zip (Dynamic, using current dir name)
 * /upload/users/catalog.zip (Static, using dictionary)
-* /upload/
 * /WeirdDirName.tar.gz (Dynamic, using child dir name)
 * /WeirdDirName/captcha.php.old (Dynamic, using current dir name)
 
