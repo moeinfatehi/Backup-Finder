@@ -58,6 +58,11 @@ to have the best result, it's recommended that you first do these steps before s
 * crawl the domain actively using the Burpsuite crawler. (in the target tab: right click on the domain -> scan -> crawl only)
 * If the application needs authentication, login via browser and submit the forms to see if there are more files or directories to be listed under our target.
 
+# Build From Source Code
+1. To build the project, you need <a href="https://gradle.org/install/">Gradle</a> installed.</br>
+2. Clone the repository</br>`git clone https://github.com/moeinfatehi/Backup-Finder`
+3. Open the main directory of the project (where build.gradle file exists) and run: `gradle makeJar`
+4. The Jar file will be generated in "build/libs/Backup-finder.jar"
 
 # Some of the options
 These options can be used to customize the detection:
@@ -74,5 +79,5 @@ These options can be used to customize the detection:
 # Disclaimer
 This program is for educational purposes ONLY. Do not use it without permission. The usual disclaimer applies, especially the fact that I'm not liable for any damages caused by the direct or indirect use of the information or functionality provided by these programs. The author or any Internet provider bears NO responsibility for content or misuse of these programs or any derivatives thereof. By using these programs you accept the fact that any damage (data loss, system crash, system compromise, etc.) caused by the use of this program is not my responsibility.
 
-# Contact
+# Hack and have fun!
 If you have any further questions, please don't hesitate to contact me via my <a href="https://twitter.com/MoeinFatehi">twitter</a> account.
