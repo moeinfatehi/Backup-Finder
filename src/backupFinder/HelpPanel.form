@@ -111,8 +111,8 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jScrollPane9" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jScrollPane8" min="-2" pref="134" max="-2" attributes="0"/>
-                      <EmptySpace pref="199" max="32767" attributes="0"/>
+                      <Component id="jScrollPane8" min="-2" pref="169" max="-2" attributes="0"/>
+                      <EmptySpace pref="164" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -135,15 +135,15 @@
                           <Data value="Email"/>
                           <Data value="Website"/>
                           <Data value="Twitter"/>
-                          <Data value="Copyright"/>
+                          <Data value="Github"/>
                         </Column>
                         <Column editable="true" title="Input Fuzzer" type="java.lang.Object">
-                          <Data value="0.1"/>
+                          <Data value="0.2"/>
                           <Data value="Moein Fatehi"/>
                           <Data value="moein.fatehi@gmail.com"/>
                           <Data value="moeinfatehi.ir"/>
                           <Data value="@MoeinFatehi"/>
-                          <Data value="&#xa9; 2015-2016 Moein Fatehi"/>
+                          <Data value="https://github.com/moeinfatehi/"/>
                         </Column>
                       </Table>
                     </Property>

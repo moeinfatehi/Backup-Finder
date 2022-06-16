@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.portswigger.burp.extender:burp-extender-api:1.7.22'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'src'
+        }
+    }
+}
+
+task makeJar(type: Jar) {
+
+    archiveBaseName = project.name 
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+compileJava {
+    targetCompatibility '1.8'
+    sourceCompatibility '1.8'
+}

@@ -12,7 +12,8 @@ public class BurpExtender extends JPanel implements IBurpExtender
     static JScrollPane frame;
     public static PrintWriter output;
     public static String project_Name="backupFinder";
-    private static final String project_Version="0.1";
+    private static final String project_Version="0.2";
+    private static String project_git="https://github.com/moeinfatehi/Backup-Finder";
     
     public BurpExtender() {
 //        this.historyModel = (DefaultTableModel)mainPanel.historyTable.getModel();
@@ -43,6 +44,7 @@ public class BurpExtender extends JPanel implements IBurpExtender
     }
     
     private void initComponents() {
+        output.println("Project Git URL: "+project_git);
     }// </editor-fold>
     
     public byte[] processProxyMessage(int messageReference, boolean messageIsRequest, String remoteHost, int remotePort, boolean serviceIsHttps, String httpMethod, String url,

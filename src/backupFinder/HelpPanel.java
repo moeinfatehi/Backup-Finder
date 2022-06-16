@@ -36,7 +36,7 @@ public class HelpPanel extends javax.swing.JPanel {
         aboutTable.getTableHeader().getColumnModel().getColumn(1).setHeaderValue(BurpExtender.getProjectName());
         Calendar calendar = new GregorianCalendar();
         int year = calendar.get(Calendar.YEAR);
-        aboutTable.setValueAt("© "+(year-1)+"-"+year+" Moein Fatehi", 5, 1);
+//        aboutTable.setValueAt("© "+(year-1)+"-"+year+" Moein Fatehi", 5, 1);
         try {
             editorPane.setText(ReadFile("instruction"));
         } catch (IOException ex) {
@@ -113,12 +113,12 @@ public class HelpPanel extends javax.swing.JPanel {
 
         aboutTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"Version", "0.1"},
+                {"Version", "0.2"},
                 {"Creator", "Moein Fatehi"},
                 {"Email", "moein.fatehi@gmail.com"},
                 {"Website", "moeinfatehi.ir"},
                 {"Twitter", "@MoeinFatehi"},
-                {"Copyright", "© 2015-2016 Moein Fatehi"}
+                {"Github", "https://github.com/moeinfatehi/"}
             },
             new String [] {
                 "Project", "Input Fuzzer"
@@ -158,8 +158,8 @@ public class HelpPanel extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(199, Short.MAX_VALUE))
+                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(164, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("About", aboutPanel);
