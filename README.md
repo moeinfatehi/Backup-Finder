@@ -109,7 +109,30 @@ By adhering to these standards and methodologies, "Backup-Finder" demonstrates i
 ## Disclaimer
 This program is for educational purposes ONLY. Do not use it without permission. The usual disclaimer applies, especially the fact that I'm not liable for any damages caused by the direct or indirect use of the information or functionality provided by these programs. The author or any Internet provider bears NO responsibility for content or misuse of these programs or any derivatives thereof. By using these programs you accept the fact that any damage (data loss, system crash, system compromise, etc.) caused by the use of this program is not my responsibility.
 
+## Contributing to Backup-Finder
+
+We welcome contributions from the community! Whether you're reporting bugs, suggesting enhancements, or submitting code changes, your input is valuable to the project's success.
+
+### Reporting Bugs
+Please use the GitHub Issues page to report bugs. Include detailed steps to reproduce the issue, any error messages you encountered, and the expected vs. actual behavior.
+
+### Feature Requests
+Have an idea for a new feature or an enhancement to an existing one? Open an issue on GitHub with the label `feature request`. Please describe the feature in detail, including its potential benefits and use cases.
+
+### Code Contributions
+If you'd like to contribute code:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Write clean, well-commented code.
+4. Ensure your changes are thoroughly tested.
+5. Submit a pull request with a clear description of the changes and any relevant issue numbers.
+
+### Improving Documentation
+Help make our documentation better by correcting errors, adding new examples, or writing tutorials. Submit your changes as a pull request, and we'll review them promptly.
+
+Thank you for contributing to Backup-Finder!
+
 ## Contact
 If you have any further questions, please don't hesitate to contact me via my [Twitter account](https://twitter.com/MoeinFatehi).
-
 
