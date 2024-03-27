@@ -94,3 +94,17 @@ sysadmin
 catalog
 www
 wwwroot
+.env
+.env.backup
+.gitignore.old
+docker-compose.override.yml
+dump.sql
+database.json
+README.old.md
+credentials.json
+.aws/credentials.bak
+wp-config.php
+database.yml
+nginx.conf
+mysqldump.sql
+.htpasswd
