@@ -113,10 +113,9 @@ public class HelpPanel extends javax.swing.JPanel {
 
         aboutTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"Version", "0.2"},
+                {"Version", "0.3"},
                 {"Creator", "Moein Fatehi"},
                 {"Email", "moein.fatehi@gmail.com"},
-                {"Website", "moeinfatehi.ir"},
                 {"Twitter", "@MoeinFatehi"},
                 {"Github", "https://github.com/moeinfatehi/"}
             },

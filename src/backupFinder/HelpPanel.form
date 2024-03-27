@@ -128,20 +128,18 @@
                 <Component class="javax.swing.JTable" name="aboutTable">
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                      <Table columnCount="2" rowCount="6">
+                      <Table columnCount="2" rowCount="5">
                         <Column editable="true" title="Project" type="java.lang.Object">
                           <Data value="Version"/>
                           <Data value="Creator"/>
                           <Data value="Email"/>
-                          <Data value="Website"/>
                           <Data value="Twitter"/>
                           <Data value="Github"/>
                         </Column>
                         <Column editable="true" title="Input Fuzzer" type="java.lang.Object">
-                          <Data value="0.2"/>
+                          <Data value="0.3"/>
                           <Data value="Moein Fatehi"/>
                           <Data value="moein.fatehi@gmail.com"/>
-                          <Data value="moeinfatehi.ir"/>
                           <Data value="@MoeinFatehi"/>
                           <Data value="https://github.com/moeinfatehi/"/>
                         </Column>
