@@ -7,3 +7,17 @@ access_log
 db.sql
 xmlrpc
 xmlrpc.php
+debug.log
+server.log
+config.bak
+.web.config
+.htaccess.old
+.nginx.conf.bak
+.env.example
+setup.php
+scripts/
+test.php
+data_dump.sql
+user_uploads/
+staging/
+archive.zip
